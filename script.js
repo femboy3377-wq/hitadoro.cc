@@ -18,7 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
     initModal();
 });
 
-    // --- Modal Logic ---
+// --- Modal Logic ---
+function initModal() {
     const modal = document.getElementById('auth-modal');
     const registerBtn = document.getElementById('register-btn');
     const loginBtn = document.getElementById('login-btn'); 
